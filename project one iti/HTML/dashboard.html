@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/CSS/dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <title>admin dashboard</title>
+    <header>
+        <h1>Admin Dashboard</h1>
+    </header>
+</head>
+<body>
+  <header>
+           
+    <h1 id="titlehead"> Fashion Home</h1>
+    <div class="headContain">
+    <a href="index1.html">Home Page</a>
+        <a href="contact us.html">Contact Us</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="gallery.html">gallery</a>
+        <a id="dynamicLink" href="#">Dynamic Link</a>
+        <img id="bag" src="../images/bag.jpg" alt="shopping bag">
+
+
+</div>
+</header>
+
+
+
+    <h3></h3>
+<form id="addProductForm" class="pro" >
+
+  <label for="id">ID:</label>
+  <input type="text" id="id" ><br>
+  <label for="id">Product Name:</label>
+  <input type="text" id="productName" ><br>
+
+
+  
+
+  <label for="productDescription">Product Description:</label>
+  <textarea id="productDescription" ></textarea><br>
+
+  <label for="productPrice">Product Price:</label>
+  <input type="number" id="productPrice"><br>
+
+  <label for="productImage">Product Image URL:</label>
+  <input type="text" id="productImage" ><br>
+
+  <label for="productinfo">Product Info:</label>
+  <input type="text" id="productinfo"><br>
+
+  <label for="productPrice">Product size:</label>
+  <input type="text" id="productsize"><br>
+
+
+
+
+<div class="buttons">
+  <input type="submit" value="Add product" id="addProductBtn"/>
+  <input type="button" value="Update product " id="updateBtn"/>
+  
+</div>
+</form>
+
+<table class="gallery" id="productGallery">
+     
+
+
+
+    <!-- Product items will be dynamically added here -->
+
+
+    
+</table>
+
+
+
+
+<footer>
+       
+  <div class="footer-info">
+     
+      <p>Email: info@fashion.com</p>
+      <p>Phone: (555) 123-4567</p>
+  </div>
+
+      <p>Contact us: fashion@gmail.com</p>
+      
+          <a href="https://www.facebook.com" target="_blank" class="h" ><i class="fab fa-facebook"></i></a>
+          <a href="https://www.twitter.com" target="_blank" class="h"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com" target="_blank" class="h"><i class="fab fa-instagram"></i></a>
+      
+
+
+  <p>&copy; 2023 Your Clothing Store. All Rights Reserved.</p>
+
+</footer>
+
+
+
+
+<script src="/jss/dashboard.js"></script>
+</body>
+</html>
